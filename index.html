@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>vanilla-js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <section class="js-clock clock">
+      <h1 class="js-time time">00:00</h1>
+    </section>
+    <div class="display">
+      <section class="js-greeting greeting">
+        <form class="js-greetingForm greeting-form">
+          <input type="text" placeholder="What is your name?">
+        </form>
+        <div class="js-message message"></div>
+      </section>
+      <section class="js-weather weather"></section>
+      <section class="js-toDo to-do">
+        <form class="js-toDoForm">
+          <input class="to-do-input" type="text" placeholder="write to do">
+        </form>
+        <ul class="js-toDoList to-do-list">To Do</ul>
+        <ul class="js-doneList done-list">Done</ul>
+      </section>
+      <script src="clock.js"></script>
+      <script src="greeting.js"></script>
+      <script src="todo.js"></script>
+      <script src="weather.js"></script>
+      <script src="bg.js"></script>
+    </div>
+  </body>
+</html>
